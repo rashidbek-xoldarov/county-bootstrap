@@ -45,3 +45,10 @@
     line-height: 22px;
   }
 }
+
+@include mobile-first(992px) {
+  .site-header__inner {
+    padding-top: 23px;
+    padding-bottom: 24px;
+  }
+}

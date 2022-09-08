@@ -453,6 +453,12 @@ img {
     line-height: 22px;
   }
 }
+@media only screen and (min-width: 992px) {
+  .site-header__inner {
+    padding-top: 23px;
+    padding-bottom: 24px;
+  }
+}
 .search {
   margin-top: 24px;
 }
