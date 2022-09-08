@@ -1,0 +1,47 @@
+.site-header {
+  background-color: var(--white-bg);
+}
+
+.site-header__inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.logo {
+  color: var(--main-text-color);
+}
+
+.logo__img {
+  width: 135px;
+  height: 20px;
+}
+
+.site-header__btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: none;
+
+  &::before {
+    margin-right: 8px;
+    @include psevdoelements(block, 16px, 16px, "");
+    background-image: url('../../images/moon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+@include mobile-first(567px) {
+  .logo__img {
+    width: 234px;
+    height: 33px;
+  }
+
+  .site-header__btn {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

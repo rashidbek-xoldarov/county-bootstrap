@@ -1,10 +1,22 @@
 /* VARIABLES */
 
 :root {
-  --main-font-family: "Public Sans", "Arial", sans-serif;
-  --main-text-color: #33323d;
+  --main-font-family: 'Nunito Sans', "Arial", sans-serif;
+  --main-text-color: #111517;
   --main-bg-color: #fafafa;
-  --main-font-size: 16px;
-  --main-font-weight: 400;
-  --main-line-height: 30px;
+  --main-font-size: 14px;
+  --main-font-weight: 600;
+  --main-line-height: 16px;
+  --white-bg: #fff;
+  --input-color: #C4C4C4;
+  --search-img-url: url('../../images/search.svg');
+}
+
+.dark-mode {
+  --main-text-color: #fff;
+  --main-bg-color: #202C36;
+  --white-bg: #2B3844;
+  --input-color: #fff;
+  --search-img-url: url('../../images/search-dark-mode.svg');
+  transition: 0.4s ease;
 }

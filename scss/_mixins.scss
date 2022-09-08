@@ -27,8 +27,8 @@
   content: $content;
 }
 
-@mixin bgImages($position-x:calc(50% + 0px), $repeat:no-repeat, $size){
+@mixin bgImages($position-x:calc(50% + 0px), $repeat:no-repeat, $size:null){
   background-size: $size;
-  background-position: $position-x center;
+  background-position: $position-x;
   background-repeat: $repeat;
 }
